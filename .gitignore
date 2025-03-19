@@ -20,6 +20,7 @@ parts/
 sdist/
 var/
 wheels/
+pip-wheel-metadata/
 share/python-wheels/
 *.egg-info/
 .installed.cfg
@@ -55,7 +56,7 @@ cover/
 *.mo
 *.pot
 
-# Django stuff:
+# Django
 *.log
 local_settings.py
 db.sqlite3
@@ -75,8 +76,9 @@ docs/_build/
 .pybuilder/
 target/
 
-# Jupyter Notebook
+# Jupyter
 .ipynb_checkpoints
+*/.ipynb_checkpoints/*
 
 # IPython
 profile_default/
@@ -121,6 +123,12 @@ ipython_config.py
 __pypackages__/
 
 # Celery stuff
+.pdm.toml
+
+# PEP 582
+__pypackages__/
+
+# Celery
 celerybeat-schedule
 celerybeat.pid
 
@@ -172,3 +180,122 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+.idea/
+
+# pyenv
+.python-version
+
+# VSCode
+.vscode
+
+# Jupyter extensions
+.virtual_documents/
+
+# Tensorflow
+events.out.tfevents.*
+model.ckpt*
+
+# Deleted files
+.Trash-5001/
+
+# Data outputs
+data-checkpoint/
+data-tmp/
+*.7z
+*.aac
+*.arrow
+*.avi
+*.avro
+*.bmp
+*.ckpt
+*.crdownload
+*.csv
+*.dat
+*.dataframe
+*.db
+*.dbf
+*.dill
+*.doc
+*.docx
+*.epub
+*.fea
+*.feather
+*.fvecs
+*.geojson
+*.gif
+*.graphml
+*.gz
+*.gzip
+*.h5
+*.hdf
+*.html
+*.joblib
+*.jpeg
+*.jpg
+*.jsonl
+*.keras
+*.log
+*.map
+*.mdb
+*.mkv
+*.mov
+*.mp3
+*.mp4
+*.mpeg
+*.mpg
+*.msgpack
+*.mysql
+*.nc
+*.npy
+*.npz
+*.obj
+*.odt
+*.ogg
+*.onnx
+*.ova
+*.parquet
+*.pb
+*.pdf
+*.pickle
+*.pkl
+*.png
+*.ppt
+*.pptx
+*.pt
+*.pth
+*.pub
+*.qar
+*.rar
+*.rda
+*.rdata
+*.RData
+*.rdf
+*.rds
+*.rout
+*.rtf
+*.safetensors
+*.shp
+*.shx
+*.spacy
+*.sqlite
+*.sqlite3
+*.svg
+*.swf
+*.tab
+*.tar
+*.tfevents
+*.tfrecord
+*.tgz
+*.tif
+*.token
+*.tsv
+*.vdi
+*.vmdk
+*.wav
+*.webm
+*.webp
+*.wmv
+*.xls
+*.xlsx
+*.zip
+.ipynb_checkpoints/
